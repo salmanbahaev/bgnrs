@@ -342,3 +342,116 @@ opacity: 0.8;
 	letter-spacing: 0.2px;
 	color: #737373;
 }
+
+/* ========= Download app =========*/
+
+.downloads {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding-bottom: 131px;
+	background: url("../img/bg-download-min.jpg") center / cover no-repeat;
+}
+
+.downloads-title {
+	padding-top: 145px;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 57px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #FFFFFF;	
+}
+
+.downloads-subtitle {
+	margin-top: 20px;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 38px;
+	text-align: center;
+	letter-spacing: 0.2px;
+	color: #FFFFFF;
+}
+
+.btn {
+	display: flex;
+	justify-content: space-between;
+	width: 331px;
+	height: 64px;
+	align-items: center;
+	margin-top: 60px;
+}
+
+.btn-one, .btn-two {
+	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 28px;
+	letter-spacing: 0.2px;
+	color: #FFFFFF;
+	height: 60px;
+	border-radius: 10px;
+	border: 1px solid #FFFFFF;
+}
+
+.btn-one:hover, .btn-two:hover {
+	height: 64px;
+	background: #FA4A0C;
+	transition: all .2s;
+}
+
+.btn-one {width: 142px;}
+.btn-two {width: 173px;}
+
+/* ========= footer =========*/
+
+.footer {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.footer-div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: -44px;
+	width: 1074px;
+}
+
+.footer__logo {
+	display: inline-block;
+	margin-top: 65px;
+	margin-bottom: 80px;
+}
+
+.links {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -12px;
+	margin-left: -36px;
+}
+
+.links a {
+	display: block;
+	padding-right: 24px;
+}
+/* .links a:last-child {
+	padding-right: 0;
+} */
+
+.footer-text {
+	font-family: 'Roboto';
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 18px;
+	text-align: right;
+	letter-spacing: 0.1px;
+	color: #5C5C5C;
+}

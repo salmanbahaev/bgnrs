@@ -378,7 +378,7 @@ opacity: 0.8;
 .btn {
 	display: flex;
 	justify-content: space-between;
-	width: 331px;
+	width: 362px;
 	height: 64px;
 	align-items: center;
 	margin-top: 60px;
@@ -395,6 +395,7 @@ opacity: 0.8;
 	letter-spacing: 0.2px;
 	color: #FFFFFF;
 	height: 60px;
+	width: 173px;
 	border-radius: 10px;
 	border: 1px solid #FFFFFF;
 }
@@ -404,9 +405,6 @@ opacity: 0.8;
 	background: #FA4A0C;
 	transition: all .2s;
 }
-
-.btn-one {width: 142px;}
-.btn-two {width: 173px;}
 
 /* ========= footer =========*/
 
@@ -454,4 +452,8 @@ opacity: 0.8;
 	text-align: right;
 	letter-spacing: 0.1px;
 	color: #5C5C5C;
+}
+.wrapper {
+	max-width: 1920px;
+	min-width: 1440px;
 }

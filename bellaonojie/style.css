@@ -410,8 +410,11 @@ opacity: 0.8;
 
 .footer {
 	width: 100%;
-	display: flex;
-	justify-content: center;
+}
+
+.footer-width {
+	margin: 0 auto;
+	max-width: 1074px;
 }
 
 .footer-div {
@@ -419,7 +422,7 @@ opacity: 0.8;
 	justify-content: space-between;
 	align-items: center;
 	margin-right: -44px;
-	width: 1074px;
+	max-width: 1074px;
 }
 
 .footer__logo {
@@ -440,9 +443,6 @@ opacity: 0.8;
 	display: block;
 	padding-right: 24px;
 }
-/* .links a:last-child {
-	padding-right: 0;
-} */
 
 .footer-text {
 	font-family: 'Roboto';
